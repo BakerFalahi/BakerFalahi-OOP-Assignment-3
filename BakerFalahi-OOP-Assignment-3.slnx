@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Collections/src/CollectionsApp.csproj" />
+  <Project Path="Generics/src/GenericsApp.csproj" />
+</Solution>

@@ -1,0 +1,52 @@
+# Build output
+bin/
+obj/
+artifacts/
+TestResults/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider and Visual Studio
+.idea/
+.vs/
+*.DotSettings.user
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swn
+*.tmp
+*.temp
+
+# Logs and local environment
+*.log
+logs/
+.env
+.env.*
+!.env.example
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Local scratch folders
+leetcode/
+LeetCode/
+.leetcode/
+linkding/
+.linkding/
+linkding*.json
+linkding*.sqlite*
+
+# Local assignment material
+*.pdf
+*.docx
+*.zip
+*.rar
