@@ -28,11 +28,9 @@ BakerFalahi-OOP-Assignment-3/
 
 ### 1. Refactoring
 
-The `Refactoring` folder is prepared for the three projects from the source repository:
+The `Refactoring` folder contains the three projects from the source repository:
 
 `https://github.com/SimulationEG/Refactoring-OCP-DIP-Composition`
-
-Each project should be copied into its matching folder and refactored there.
 
 - `part-01`: Open/Closed Principle, Dependency Inversion, and composition over inheritance.
 - `part-02`: Template Method for report exporting and Facade for enrollment.
@@ -82,8 +80,16 @@ Run the generics project:
 dotnet run --project Generics/src/GenericsApp.csproj
 ```
 
+Run a refactoring project:
+
+```bash
+dotnet run --project Refactoring/part-01/RefactoringLab.Part01.csproj
+dotnet run --project Refactoring/part-02/RefactoringLab.Part02.csproj
+dotnet run --project Refactoring/part-03/RefactoringLab.Part03.csproj
+```
+
 ## Notes
 
 - Build outputs such as `bin/` and `obj/` are ignored.
 - IDE files, local environment files, PDFs, archives, and local scratch folders are ignored.
-- The LinkedIn links and refactoring answers are left as placeholders so they can be completed after the external work is done.
+- The LinkedIn links are stored in `LinkedIn/linked.md`.

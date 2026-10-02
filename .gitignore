@@ -37,6 +37,7 @@ project.lock.json
 project.assets.json
 
 # Local scratch folders
+_refactoring_source/
 leetcode/
 LeetCode/
 .leetcode/
